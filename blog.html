@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog | Yangın Uzmanı Raporu</title>
+  <meta name="description" content="Yangın Güvenlik Uzmanlığı (YGU) hakkında yazılar: yönetmelik, kademeler, eğitim, sınav ve periyodik yangın kontrolü.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#0b1f3a">
+  <link rel="canonical" href="https://www.yanginuzmaniraporu.com/blog.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Yangın Uzmanı Raporu">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:title" content="Blog | Yangın Uzmanı Raporu">
+  <meta property="og:description" content="Yangın Güvenlik Uzmanlığı (YGU) hakkında yazılar: yönetmelik, kademeler, eğitim, sınav ve periyodik yangın kontrolü.">
+  <meta property="og:url" content="https://www.yanginuzmaniraporu.com/blog.html">
+  <meta property="og:image" content="https://www.yanginuzmaniraporu.com/assets/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header id="site-header"></header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="crumbs"><a href="index.html">Ana Sayfa</a> / Blog</div>
+    <h1>YGU blog</h1>
+    <p>Yönetmelik, kademeler, eğitim, sınav ve meslek hakkında güncel yazılar.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:start">
+      <div class="filters" id="blog-filters"></div>
+      <input class="search" id="blog-search" type="search" placeholder="Yazılarda ara…">
+    </div>
+    <div class="grid grid-3" id="blog-list"></div>
+  </div>
+</section>
+
+<section class="section soft">
+  <div class="container split" style="align-items:start">
+    <div>
+      <span class="eyebrow">Topluluk</span>
+      <h2>Bir soru sorun veya konu önerin</h2>
+      <p class="lead">YGU süreciyle ilgili sorunuzu veya yazılmasını istediğiniz bir konuyu bize iletin. Uygun görülen sorular, yanıtlarıyla birlikte blogda yayımlanır.</p>
+      <ul class="check-list">
+        <li>Sorularınız taslak yönetmelik ve ekleri esas alınarak yanıtlanır</li>
+        <li>Genel ilgi gören sorular, kimlik bilgisi paylaşılmadan blogda yayımlanabilir</li>
+        <li>Lütfen kişisel veri ve dosya bilgisi paylaşmayınız</li>
+      </ul>
+    </div>
+    <form data-form="Blog - Soru / Konu Önerisi" class="card">
+      <div class="row">
+        <div><label for="b-ad">Ad Soyad *</label><input id="b-ad" name="Ad" required></div>
+        <div><label for="b-mail">E-posta *</label><input id="b-mail" name="E-posta" type="email" required></div>
+      </div>
+      <label for="b-meslek">Meslek / Alan</label>
+      <select id="b-meslek" name="Meslek">
+        <option>Tekniker / itfaiyeci</option>
+        <option>Mühendis / mimar</option>
+        <option>Kimya mühendisi / kimyager</option>
+        <option>İSG uzmanı</option>
+        <option>Öğrenci</option>
+        <option>Diğer</option>
+      </select>
+      <label for="b-konu">Konu başlığı *</label><input id="b-konu" name="Konu" required>
+      <label for="b-mesaj">Sorunuz / öneriniz *</label><textarea id="b-mesaj" name="Mesaj" required></textarea>
+      <label class="check"><input type="checkbox" required> Kişisel verilerimin sorumun yanıtlanması amacıyla işlenmesine ilişkin <a href="kvkk.html" target="_blank">KVKK aydınlatma metnini</a> okudum.</label>
+      <button class="btn btn-primary" type="submit" style="margin-top:8px">Gönder</button>
+      <p class="form-status" style="margin-top:12px;color:var(--muted)"></p>
+    </form>
+  </div>
+</section>
+
+<footer id="site-footer"></footer>
+<script src="data/blog.js"></script>
+<script src="assets/main.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () =>
+    renderList({ data: window.BLOG, target: "blog-list", link: "yazi.html", filtersEl: "blog-filters", searchEl: "blog-search" }));
+</script>
+</body>
+</html>

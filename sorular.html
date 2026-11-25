@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sorular ve Cevaplar | Yangın Uzmanı Raporu</title>
+  <meta name="description" content="Yangın Güvenlik Uzmanlığı hakkında sık sorulan sorular: kimler başvurabilir, eğitim online mı, sınav nasıl, belge ne kadar geçerli, YGU nasıl çalışır ve ne kazanır.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#0b1f3a">
+  <link rel="canonical" href="https://www.yanginuzmaniraporu.com/sorular.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Yangın Uzmanı Raporu">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:title" content="Sorular ve Cevaplar | Yangın Uzmanı Raporu">
+  <meta property="og:description" content="Yangın Güvenlik Uzmanlığı hakkında sık sorulan sorular: kimler başvurabilir, eğitim online mı, sınav nasıl, belge ne kadar geçerli, YGU nasıl çalışır ve ne kazanır.">
+  <meta property="og:url" content="https://www.yanginuzmaniraporu.com/sorular.html">
+  <meta property="og:image" content="https://www.yanginuzmaniraporu.com/assets/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header id="site-header"></header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="crumbs"><a href="index.html">Ana Sayfa</a> / Sorular</div>
+    <h1>Sorular ve cevaplar</h1>
+    <p>Kademeler, eğitim, sınav, yetki belgesi ve çalışma düzeni hakkında taslak yönetmeliğe dayalı cevaplar. Kategoriye göre süzebilir veya arayabilirsiniz.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:880px">
+    <div style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:start">
+      <div class="filters" id="sss-filters"></div>
+      <input class="search" id="sss-search" type="search" placeholder="Sorularda ara…">
+    </div>
+    <div id="sss-list"></div>
+    <div class="cta" style="margin-top:48px">
+      <h2>Aradığınız cevap burada yok mu?</h2>
+      <p>Sorunuzu iletin; yanıtlayalım ve gerekirse bu listeye ekleyelim.</p>
+      <div class="hero-actions"><a class="btn btn-white" href="iletisim.html">Soru sorun</a></div>
+    </div>
+  </div>
+</section>
+
+<footer id="site-footer"></footer>
+<script src="data/sss.js"></script>
+<script src="assets/main.js"></script>
+<script src="assets/tools.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const all = window.SSS;
+  let kat = "Tümü", q = "";
+  const fEl = document.getElementById("sss-filters");
+  const cats = ["Tümü", ...new Set(all.map(i => i.k))];
+  fEl.innerHTML = cats.map(c => `<button class="${c === kat ? "active" : ""}">${c}</button>`).join("");
+  function draw() {
+    const list = all.filter(i => (kat === "Tümü" || i.k === kat) && (!q || (i.s + " " + i.c).toLocaleLowerCase("tr").includes(q)));
+    if (list.length) renderSSS("sss-list", list);
+    else document.getElementById("sss-list").innerHTML = '<div class="empty">Sonuç bulunamadı.</div>';
+  }
+  fEl.querySelectorAll("button").forEach(b => b.onclick = () => {
+    kat = b.textContent;
+    fEl.querySelectorAll("button").forEach(x => x.classList.toggle("active", x === b));
+    draw();
+  });
+  document.getElementById("sss-search").oninput = e => { q = e.target.value.trim().toLocaleLowerCase("tr"); draw(); };
+  draw();
+});
+</script>
+</body>
+</html>

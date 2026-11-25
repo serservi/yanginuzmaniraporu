@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>İletişim | Yangın Uzmanı Raporu</title>
+  <meta name="description" content="YGU eğitimi, ön kayıt, kurumsal eğitim veya Yangın Güvenlik Uzmanlığı hakkındaki sorularınız için bizimle iletişime geçin.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#0b1f3a">
+  <link rel="canonical" href="https://www.yanginuzmaniraporu.com/iletisim.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Yangın Uzmanı Raporu">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:title" content="İletişim | Yangın Uzmanı Raporu">
+  <meta property="og:description" content="YGU eğitimi, ön kayıt, kurumsal eğitim veya Yangın Güvenlik Uzmanlığı hakkındaki sorularınız için bizimle iletişime geçin.">
+  <meta property="og:url" content="https://www.yanginuzmaniraporu.com/iletisim.html">
+  <meta property="og:image" content="https://www.yanginuzmaniraporu.com/assets/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header id="site-header"></header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="crumbs"><a href="index.html">Ana Sayfa</a> / İletişim</div>
+    <h1>İletişim</h1>
+    <p>YGU eğitimleri, ön kayıt veya Yangın Güvenlik Uzmanlığı hakkındaki sorularınız için bize yazın.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split" style="align-items:start">
+    <form data-form="İletişim Formu">
+      <div class="row">
+        <div><label for="ad">Ad Soyad *</label><input id="ad" name="Ad Soyad" required></div>
+        <div><label for="kurum">Kurum / şirket</label><input id="kurum" name="Kurum"></div>
+      </div>
+      <div class="row">
+        <div><label for="tel">Telefon *</label><input id="tel" name="Telefon" type="tel" required></div>
+        <div><label for="mail">E-posta *</label><input id="mail" name="E-posta" type="email" required></div>
+      </div>
+      <label for="tur">Konu</label>
+      <select id="tur" name="Konu">
+        <option>YGU eğitimi hakkında bilgi</option>
+        <option>Kurumsal (ekip) eğitimi</option>
+        <option>Hangi kademeye uygunum?</option>
+        <option>Yönetmelik ve süreç hakkında soru</option>
+        <option>Diğer</option>
+      </select>
+      <label for="mesaj">Mesajınız *</label><textarea id="mesaj" name="Mesaj" required placeholder="Mezuniyetiniz, hedeflediğiniz kademe ve sorunuz…"></textarea>
+      <label class="check"><input type="checkbox" required> Kişisel verilerimin talebimin değerlendirilmesi amacıyla işlenmesine ilişkin <a href="kvkk.html" target="_blank">KVKK aydınlatma metnini</a> okudum.</label>
+      <button class="btn btn-primary" type="submit" style="margin-top:12px">Gönder</button>
+      <p class="form-status" style="margin-top:12px;color:var(--muted)"></p>
+    </form>
+    <div class="panel">
+      <h3>İletişim bilgileri</h3>
+      <p><strong style="color:#fff">Telefon</strong><br><span data-site="telefon"></span></p>
+      <p><strong style="color:#fff">E-posta</strong><br><span data-site="eposta"></span></p>
+      <p><strong style="color:#fff">Adres</strong><br><span data-site="adres"></span><br>
+        <a href="https://www.google.com/maps/search/?api=1&query=Maltepe+Piazza+OfficeLink+Tugay+Yolu+Cd.+No+69A+Maltepe+%C4%B0stanbul" target="_blank" rel="noopener" style="color:var(--accent-2)">Haritada göster ↗</a></p>      <a class="btn btn-white" href="egitim.html#on-basvuru" style="margin-top:8px">Eğitime ön başvuru</a>
+    </div>
+  </div>
+</section>
+
+<footer id="site-footer"></footer>
+<script src="assets/main.js"></script>
+</body>
+</html>

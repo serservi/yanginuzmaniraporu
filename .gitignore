@@ -1,0 +1,21 @@
+# Yalnızca yayınlanacak site dosyaları depoya girer.
+# Önce her şey yok sayılır, sonra aşağıdaki dosya ve klasörlere izin verilir.
+/*
+!/.gitignore
+!/.nojekyll
+!/CNAME
+!/index.html
+!/meslek.html
+!/yol-haritasi.html
+!/egitim.html
+!/sorular.html
+!/blog.html
+!/yazi.html
+!/iletisim.html
+!/kvkk.html
+!/404.html
+!/sitemap.xml
+!/robots.txt
+!/assets/
+!/data/
+!/sunum/
