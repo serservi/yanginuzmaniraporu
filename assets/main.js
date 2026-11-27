@@ -103,7 +103,7 @@ function renderFooter() {
           <li><a href="iletisim.html">İletişim formu</a></li></ul></div>
       </div>
       <div class="footer-bottom">
-        <span>© ${new Date().getFullYear()} ${SITE.firma}. İçerikler ÇŞİDB yönetmelik taslağına dayanır; yayımlanan nihai metinde değişiklik olabilir.</span>
+        <span>© ${new Date().getFullYear()} ${SITE.firma}. YGU'ya ilişkin içerikler ÇŞİDB yönetmelik taslağına, bina kuralları 27.11.2026 tarihli Bina Yangın Yönetmeliği'ne dayanır.</span>
         <span><a href="kvkk.html">KVKK Aydınlatma Metni</a> · <a href="kvkk.html#cerezler">Çerezler</a> · ${SITE.alanAdi}</span>
       </div>
     </div>`;

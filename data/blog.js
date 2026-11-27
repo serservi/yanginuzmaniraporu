@@ -6,6 +6,47 @@
    ========================================================= */
 window.BLOG = [
   {
+    id: "bina-yangin-yonetmeligi-yayimlandi",
+    baslik: "Bina Yangın Yönetmeliği yayımlandı: YGU adayları için ne değişti?",
+    tarih: "2026-11-27",
+    kategori: "Mevzuat",
+    okuma: 6,
+    yazar: "Yangın Uzmanı Raporu",
+    ozet: "2007'den beri uygulanan yönetmeliğin yerini alacak yeni Bina Yangın Yönetmeliği Resmî Gazete'de yayımlandı ve 1 Ocak 2028'de yürürlüğe giriyor. Yangın güvenlik uzmanları açısından öne çıkan hükümler.",
+    icerik: `
+      <p>Yeni <strong>Bina Yangın Yönetmeliği</strong>, 26 Kasım 2026 tarihli ve 12041 sayılı Cumhurbaşkanı Kararı ile 27 Kasım 2026 tarihli ve 33443 sayılı Resmî Gazete'de yayımlandı. Yönetmelik <strong>1 Ocak 2028'de</strong> yürürlüğe girecek ve aynı tarihte 19 Aralık 2007 tarihli Binaların Yangından Korunması Hakkında Yönetmelik yürürlükten kalkacak.</p>
+      <p>Yönetmelik binaların tasarım, yapım, bakım ve kullanım aşamalarındaki yangın güvenliği kurallarını baştan düzenliyor. Bu yazıda yalnızca yangın güvenlik uzmanlığı (YGU) mesleğini ilgilendiren başlıklara odaklanıyoruz.</p>
+
+      <h2>Yangın güvenlik uzmanı artık yönetmelikte tanımlı</h2>
+      <p>Yönetmeliğin tanımlar maddesinde yangın güvenlik uzmanı; Bakanlık veya Bakanlığın yetkilendirdiği eğitici kurum ve kuruluşların verdiği eğitim sonunda yapılan sınavda başarılı olan ve nitelikleri Bakanlıkça belirlenen kişi olarak tanımlanıyor. Yangın güvenlik raporu da itfaiyenin ya da itfaiyenin gerekli gördüğü durumda yangın güvenlik uzmanlarının düzenlediği belge olarak tarif ediliyor.</p>
+
+      <h2>Proje, iskân ve periyodik kontrolde uzmanın yeri</h2>
+      <ul>
+        <li>Ayrı hazırlanan yangın algılama, söndürme ve tahliye projeleri, itfaiyenin ya da gerekli gördüğü durumda yangın güvenlik uzmanlarının <strong>uygunluk görüşünden</strong> sonra onaylanacak.</li>
+        <li>Yapı kullanma izni aşamasında, periyodik kontrole tabi yapılarda aynı şekilde uygunluk görüşü alınacak; bu görüşü alan yapılardan ilk periyodik kontrole kadar ayrıca rapor istenmeyecek.</li>
+        <li>Kamu binaları dışındaki yapıların sahipleri ve yöneticileri, itfaiyeden ya da gerektiğinde yangın güvenlik uzmanlarından hizmet alarak <strong>periyodik kontrollerini yaptırıp raporlatacak</strong>. Güncel raporu olmayan yapılar ilgili idareye bildirilecek.</li>
+        <li>Kamu binalarını ise kurum amiri ya da görevlendirdiği kişi veya heyet kontrol edecek; mülki amir bu kontroller için yangın güvenlik uzmanlarından hizmet alabilecek.</li>
+      </ul>
+
+      <h2>Rapor sigorta ve teşvik süreçlerine giriyor</h2>
+      <p>Yönetmeliğin belki de en dikkat çekici hükmü: periyodik kontrole tabi yapılarda denetim ve belgelendirme yapan kurumlar, teşvik gibi destekleri değerlendiren kurumlar ve <strong>yangın sigortası yapan sigorta şirketleri güncel yangın güvenlik raporunu isteyecek</strong>. Bu, raporun bir formalite değil, binanın günlük işleyişinin parçası hâline gelmesi; dolayısıyla nitelikli uzmana olan ihtiyacın da sürekli olması anlamına geliyor.</p>
+
+      <h2>Tatbikatlar yıllık ve gözetimli</h2>
+      <p>Kapsamdaki tüm yapılarda yılda en az bir kez yangın tahliye ve söndürme tatbikatı yapılacak. Yataklı sağlık yapıları, okul ve üniversiteler, 25 odanın üzerindeki konaklama yapıları, yüksekliği 51,50 metreyi aşan yapılar ve yüksek tehlikeli yapılarda tatbikat, itfaiye ya da yangın güvenlik uzmanı gözetiminde yapılacak. Uygun geçmeyen tatbikat üç ay içinde tekrarlanacak.</p>
+
+      <h2>Sorumluluk netleşti</h2>
+      <p>Periyodik kontrol sırasında eksik, hatalı veya standarda aykırı durumların tespitinde ihmali olan ya da gereğini yapmayan itfaiye veya yangın güvenlik uzmanı sorumlu tutulacak. Yangın güvenlik sistemlerinin periyodik muayene raporları da, uzmanın yapacağı periyodik kontrolde sunulmak üzere yapıda saklanacak.</p>
+
+      <h2>Mevcut yüksek konutlar için bir yıllık süre</h2>
+      <p>Yüksekliği 30,50 metreyi aşan mevcut konutlarda otomatik algılama ve uyarı sistemi kurulması ve uygun sayıda taşınabilir söndürücü bulundurulması zorunlu hâle geliyor; bu tedbirler yönetmeliğin yürürlüğünden itibaren bir yıl içinde alınacak.</p>
+
+      <h2>Neler hâlâ bekleniyor?</h2>
+      <p>Bina Yangın Yönetmeliği; periyodik kontrole tabi yapıları, kontrol sürelerini, uygunluk görüşü ve tatbikat usullerini, ücretleri ve yangın güvenlik uzmanlarının niteliklerini belirleme yetkisini Bakanlığa bırakıyor. Yani <strong>kademeler (YGU-1, YGU-2, YGU-3, YGU-K), eğitim saatleri, sınav ve kontrol aralıkları</strong>, Bakanlığın çıkaracağı ayrı yönetmelikle kesinleşecek. Sitemizdeki bu konulara ilişkin bilgiler şimdilik o yönetmeliğin taslağına dayanıyor.</p>
+      <blockquote>Yasal zemin hazır; şimdi sıra uzmanları yetiştirecek yönetmelikte.</blockquote>
+      <p>Mezuniyetinize uygun kademeyi öğrenmek için <a href="index.html#kademe-testi">kademe testini</a> kullanabilir, süreç hakkında <a href="yol-haritasi.html">yol haritası</a> sayfamıza göz atabilirsiniz.</p>`,
+    kaynak: "Bina Yangın Yönetmeliği, Cumhurbaşkanı Kararı 12041, Resmî Gazete 27.11.2026 / 33443 (m. 4, 5, 6, 133, 134, 141, 145, 147, Geçici m. 4)."
+  },
+  {
     id: "periyodik-yangin-kontrolu-2028",
     baslik: "2028'de başlayacak periyodik yangın kontrolü: bina sahipleri neyi bilmeli?",
     tarih: "2026-11-14",

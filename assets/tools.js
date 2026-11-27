@@ -92,7 +92,7 @@ function initBinaTest(id) {
          <p>Kontrolde ilk olarak onaylı yangın projeleri, kullanım sınıfına uygunluk ve sistemlerin periyodik muayene belgeleri aranır; bunlardan biri eksikse kontrol yapılmadan durum belediyeye bildirilir. Binanız birden fazla kullanım içeriyorsa en kısa periyot uygulanır.</p>
          <a class="btn btn-primary" href="iletisim.html">Hazırlık değerlendirmesi için teklif alın</a>`
       : `<strong>Taslağa göre binanız şu an kapsam dışında görünüyor.</strong><p>${r.not}</p>
-         <p>Kapsam dışında kalmak, yangın güvenliği yükümlülüklerinin olmadığı anlamına gelmez; Binaların Yangından Korunması Hakkında Yönetmelik tüm binalar için geçerlidir.</p>`;
+         <p>Kapsam dışında kalmak, yangın güvenliği yükümlülüklerinin olmadığı anlamına gelmez; yangın güvenliği kuralları tüm binalar için geçerlidir.</p>`;
   }
 
   sinif.addEventListener("change", () => {
@@ -188,10 +188,11 @@ function initYguTest(id) {
 
 /* ---------- Mevzuat takip çizelgesi ---------- */
 const TAKVIM = [
-  { durum: "done", when: "2026", baslik: "Taslak hazırlandı", metin: "ÇŞİDB, yönetmelik taslağını ve 9 ekini hazırladı.", etiket: "Tamamlandı" },
-  { durum: "now", when: "Bekleniyor", baslik: "Resmî Gazete'de yayım", metin: "Uzmanlık, eğitim ve sınav hükümleri yayım günü yürürlüğe girer.", etiket: "Takipte" },
+  { durum: "done", when: "2026", baslik: "YGU taslağı hazırlandı", metin: "ÇŞİDB, YGU ve periyodik kontrol yönetmeliği taslağını ve 9 ekini hazırladı.", etiket: "Tamamlandı" },
+  { durum: "done", when: "27 Kasım 2026", baslik: "Bina Yangın Yönetmeliği yayımlandı", metin: "Resmî Gazete 33443; 2007 tarihli yönetmeliğin yerini alıyor.", etiket: "Tamamlandı" },
+  { durum: "now", when: "Bekleniyor", baslik: "YGU yönetmeliğinin yayımı", metin: "Uzmanlık, eğitim ve sınav hükümleri yayım günü yürürlüğe girer.", etiket: "Takipte" },
   { durum: "", when: "Yayımdan sonra", baslik: "Eğitim ve sınavlar", metin: "Eğitici kuruluşlar yetkilendirilir; eğitimler ve Bakanlık sınavları başlar.", etiket: "Planlanan" },
-  { durum: "", when: "1 Ocak 2028", baslik: "Periyodik kontrol başlar", metin: "Binaların periyodik kontrol hükümleri yürürlüğe girer.", etiket: "Planlanan" },
+  { durum: "", when: "1 Ocak 2028", baslik: "Yeni dönem başlar", metin: "Bina Yangın Yönetmeliği ile periyodik kontrol, uygunluk görüşü ve tatbikat hükümleri yürürlüğe girer.", etiket: "Planlanan" },
   { durum: "", when: "2028 boyunca", baslik: "Geçiş yılı", metin: "Mevcut yapılar ilk başvurularını 31 Aralık 2028'e kadar yapar.", etiket: "Planlanan" }
 ];
 function renderTakvim(id) {
