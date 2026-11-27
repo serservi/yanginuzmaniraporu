@@ -44,7 +44,7 @@ window.BLOG = [
       <p>Bina Yangın Yönetmeliği; periyodik kontrole tabi yapıları, kontrol sürelerini, uygunluk görüşü ve tatbikat usullerini, ücretleri ve yangın güvenlik uzmanlarının niteliklerini belirleme yetkisini Bakanlığa bırakıyor. Yani <strong>kademeler (YGU-1, YGU-2, YGU-3, YGU-K), eğitim saatleri, sınav ve kontrol aralıkları</strong>, Bakanlığın çıkaracağı ayrı yönetmelikle kesinleşecek. Sitemizdeki bu konulara ilişkin bilgiler şimdilik o yönetmeliğin taslağına dayanıyor.</p>
       <blockquote>Yasal zemin hazır; şimdi sıra uzmanları yetiştirecek yönetmelikte.</blockquote>
       <p>Mezuniyetinize uygun kademeyi öğrenmek için <a href="index.html#kademe-testi">kademe testini</a> kullanabilir, süreç hakkında <a href="yol-haritasi.html">yol haritası</a> sayfamıza göz atabilirsiniz.</p>`,
-    kaynak: "Bina Yangın Yönetmeliği, Cumhurbaşkanı Kararı 12041, Resmî Gazete 27.11.2026 / 33443 (m. 4, 5, 6, 133, 134, 141, 145, 147, Geçici m. 4)."
+    kaynak: 'Bina Yangın Yönetmeliği, Cumhurbaşkanı Kararı 12041, <a href="https://www.resmigazete.gov.tr/eskiler/2026/11/20261127-21.pdf" target="_blank" rel="noopener">Resmî Gazete 27.11.2026 / 33443</a> (m. 4, 5, 6, 133, 134, 141, 145, 147, Geçici m. 4).'
   },
   {
     id: "periyodik-yangin-kontrolu-2028",
