@@ -50,15 +50,6 @@ function renderHeader() {
     return `<a href="${href}" class="${active ? "active" : ""}">${label}</a>`;
   }).join("");
 
-  // Üst iletişim çubuğu header'ın önüne eklenir
-  const pre = `<div class="topbar"><div class="container">
-      <div class="left">
-        <a href="tel:${SITE.telefon.replace(/[^\d+]/g, "")}">${ICON_TEL}${SITE.telefon}</a>
-        <a href="mailto:${SITE.eposta}" class="hide-sm">${ICON_MAIL}${SITE.eposta}</a>
-      </div>
-      <span class="hide-sm">${SITE.alanAdi}</span>
-    </div></div>`;
-  el.insertAdjacentHTML("beforebegin", pre);
 
   el.className = "site-header";
   el.innerHTML = `

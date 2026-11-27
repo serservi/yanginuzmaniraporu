@@ -6,6 +6,73 @@
    ========================================================= */
 window.BLOG = [
   {
+    id: "7579-sayili-kanun-periyodik-kontrol",
+    baslik: "7579 sayılı Kanun: periyodik yangın kontrolünün yasal dayanağı",
+    tarih: "2026-11-27",
+    kategori: "Mevzuat",
+    okuma: 4,
+    yazar: "Yangın Uzmanı Raporu",
+    ozet: "22 Mayıs 2026'da yayımlanan 7579 sayılı Kanun, periyodik yangın kontrolünü ve yangın güvenlik uzmanlarını ilk kez İmar Kanunu'na bağladı. Üç maddenin ne dediği ve henüz neyin eksik olduğu.",
+    icerik: `
+      <p>Periyodik yangın kontrolünün yasal dayanağı, <strong>7579 sayılı Tapu Kanunu ile Bazı Kanunlarda ve 375 Sayılı KHK'de Değişiklik Yapılmasına Dair Kanun</strong>. Kanun 7 Mayıs 2026'da kabul edildi ve 22 Mayıs 2026 tarihli, 33261 sayılı Resmî Gazete'de yayımlandı.</p>
+      <h2>Kanunun getirdikleri</h2>
+      <ul>
+        <li><strong>Periyodik kontrol (12. madde):</strong> Kullanım belgesi olan yapılarda, yapı sahibinin süresi içinde yapacağı başvuru üzerine yangın güvenliğine yönelik periyodik kontroller yapılır. Kontrolleri belediyelerin itfaiye teşkilatı ya da yetkilendirilmiş yangın güvenlik uzmanları yapar ve sonunda yangın güvenlik raporu düzenlenir.</li>
+        <li><strong>Eksiklikler (13. madde):</strong> Tespit edilen eksiklikler en fazla altı ay içinde giderilir ve geçerli bir yangın güvenlik raporu alınır. Esaslı tadilat gerektiren eksiklikler ruhsat veya izinle yapılır; süre bu tarihten başlar.</li>
+        <li><strong>Yönetmelik yetkisi (15. madde):</strong> Hangi yapıların kontrole tabi olacağı, kontrol sürelerini, alınacak ücretleri ve yangın güvenlik uzmanlarının niteliklerini belirleyecek usul ve esaslar Bakanlıkça çıkarılacak yönetmelikle belirlenecek.</li>
+      </ul>
+      <h2>Henüz neyin eksik olduğu</h2>
+      <p>Kanun yürürlükte; ancak uzmanların eğitimini, sınavını, kademelerini ve kontrol sürelerini belirleyen Bakanlık yönetmeliği henüz yayımlanmadı. Bu nedenle sitemizdeki kademe ve süre bilgileri, Bakanlığın taslağına dayanıyor.</p>
+      <p>Ayrıca 27 Kasım 2026'da yayımlanan Bina Yangın Yönetmeliği, periyodik kontrol ve uygunluk görüşü hükümlerinin 1 Ocak 2028'de yürürlüğe gireceğini belirtiyor.</p>
+    `,
+    kaynak: 'Resmî Gazete 22.05.2026 / 33261, 7579 sayılı Kanun (m. 12, 13, 15): <a href="https://www.resmigazete.gov.tr/eskiler/2026/05/20260522-1.htm" target="_blank" rel="noopener">resmigazete.gov.tr</a>.'
+  },
+  {
+    id: "konaklama-itfaiye-raporu-31-mayis",
+    baslik: "Konaklama tesisleri için itfaiye raporu: 31 Mayıs 2026 süresi doldu",
+    tarih: "2026-11-27",
+    kategori: "Konaklama",
+    okuma: 3,
+    yazar: "Yangın Uzmanı Raporu",
+    ozet: "Ocak 2026'da yayımlanan yönetmelik değişikliği, itfaiye raporu olmayan konaklama tesislerine 31 Mayıs 2026'ya kadar süre tanıdı. Süre doldu; bunun ne anlama geldiğini açıklıyoruz.",
+    icerik: `
+      <p>10 Ocak 2026 tarihli Resmî Gazete'de yayımlanan <strong>İşyeri Açma ve Çalışma Ruhsatlarına İlişkin Yönetmelikte Değişiklik</strong> ile yönetmeliğe geçici 9. madde eklendi. Bu madde, mevcut ruhsatı olan ama geçerli bir itfaiye raporu bulunmayan konaklama tesislerini kapsıyor.</p>
+      <h2>Tanınan süre ve sonuçları</h2>
+      <ul>
+        <li><strong>Süre:</strong> Tesisler yangın güvenliği eksiklerini giderip itfaiye raporunu almak için <strong>31 Mayıs 2026</strong>'ya kadar süre aldı.</li>
+        <li><strong>Denetim:</strong> Binaların Yangından Korunması Hakkında Yönetmelik hükümlerine tabi işyerlerinde eksikliklere yönelik denetim yapılacak.</li>
+        <li><strong>Faaliyet:</strong> Raporu almak için yapılacak tadilat sırasında tesislerin faaliyet göstermesine izin verilmeyecek.</li>
+        <li><strong>Ruhsat iptali:</strong> Süre sonunda eksikleri tamamlanmayan tesislerin iş yeri açma ve çalışma ruhsatları iptal edilecek. Raporunu alan tesisler yeniden açılabilecek.</li>
+      </ul>
+      <h2>Bugün bu ne anlama geliyor?</h2>
+      <p>Bu tarih geçti. Hangi tesislerin ruhsatının iptal edildiğini haberlerden doğrulayamadık; bu bilgiyi tesisin bulunduğu belediyeden ve itfaiyeden öğrenebilirsiniz. Konaklama işletmecileri için pratik öneri: geçerli bir itfaiye raporunuz yoksa hemen başvurun ve tadilat planınızı yazılı hâle getirin.</p>
+      <p>Uzun vadede periyodik kontrol sistemi 1 Ocak 2028'de başlayacak; konaklama tesisleri de kontrol kapsamında olacak.</p>
+    `,
+    kaynak: 'İşyeri Açma ve Çalışma Ruhsatlarına İlişkin Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik (RG 10.01.2026), geçici 9. madde: <a href="https://www.ensonhaber.com/resmi-gazetede-yayinlandi-itfaiye-raporu-olmayan-is-yerlerine-kapatma-geliyor-h1501878" target="_blank" rel="noopener">Ensonhaber</a> haberi.'
+  },
+  {
+    id: "yangin-guvenligi-elestiriler",
+    baslik: "Yangın güvenliği düzenlemesi: eleştiriler ve farklı görüşler",
+    tarih: "2026-11-27",
+    kategori: "Görüşler",
+    okuma: 5,
+    yazar: "Yangın Uzmanı Raporu",
+    ozet: "Yeni sistemi destekleyen ve eleştiren görüşler: meslek odaları, iş güvenliği uzmanları ve itfaiye kapasitesi tartışması. Kaynaklı bir derleme.",
+    icerik: `
+      <p>Periyodik yangın kontrolü ve yangın güvenlik uzmanı sistemi, Kartalkaya faciasının ardından yasal zemine oturdu. Ancak sistemin nasıl işleyeceği konusunda farklı görüşler var. Aşağıda bu görüşleri kaynaklarıyla derledik.</p>
+      <h2>Meslek odaları: denetim ve bakım şart</h2>
+      <p>TMMOB'ye bağlı odaların Kartalkaya raporu, yangın güvenlik raporlarının zamanında alınmamasına ve yapı kullanma izni sonrasında denetim ve bakım hizmetlerinin yetersizliğine dikkat çekiyor. Makina Mühendisleri Odası İzmir Şubesi ise sistemlerin kurulmuş olmasının yetmediğini; çalışıp çalışmadığının düzenli olarak kontrol edilmesi gerektiğini vurguluyor.</p>
+      <h2>Sorumluluğun uzmana devri tartışması</h2>
+      <p>A sınıfı iş güvenliği uzmanı Deniz İpek, Evrensel'e verdiği görüşte yeni "yangın uzmanlığı" modelinin, geçmişte iş güvenliğinde olduğu gibi kamusal ve işveren sorumluluğunu bireysel teknik personele devretme riski taşıdığını söylüyor. Ona göre yangın güvenliği ruhsatlandırma, yapı denetimi, turizm denetimi ve yerel yönetimlerin sorumluluğunu da içeren çok katmanlı bir kamu denetimi meselesi.</p>
+      <h2>Yetki ve periyot belirsizliği</h2>
+      <p>Hürriyet'te yayımlanan bir köşe yazısı, yangın denetiminin hangi koşullarda ve hangi periyotta yapılacağının ve yetkinin kimde olduğunun net olmadığını eleştiriyor. Bu belirsizlik, yönetmelik yayımlanana kadar sürecek gibi görünüyor.</p>
+      <h2>İtfaiye kapasitesi</h2>
+      <p>Yapı İşleri Genel Müdürü, itfaiye ekiplerinin bazı binalara giremediğini ve bu nedenle yangın uzmanlığı kavramına ihtiyaç duyulduğunu söylüyor. İzmir İtfaiye Dairesi Başkanı ise itfaiyenin görevinin yangınla sınırlı olmadığını, deprem ve teknik kurtarma gibi işlerin de yürütüldüğünü hatırlatıyor. TİBDER raporuna göre 38 ilde toplam 9.856 itfaiye personeli çalışıyor.</p>
+      <blockquote>Ortak nokta şu: periyodik kontrol ve yetkin bir uzman gerekli. Tartışılan ise uzmanın sorumluluğu, itfaiyenin kapasitesi ve kamunun sorumluluğunun nasıl paylaşılacağı.</blockquote>
+    `,
+    kaynak: 'TMMOB Kartalkaya raporu (<a href="https://www.koroglugazetesi.com.tr/tmmobnin-aci-raporu-yangin-guvenligi-ihmal-edildi-78-kisi-hayatini-kaybetti" target="_blank" rel="noopener">Köroğlu</a>), MMO İzmir (<a href="https://www.mansetiz.com/mmo-izmir-subesinden-yangin-guvenligi-uyarisi-sistemler-kurulu-peki-calisiyor-mu" target="_blank" rel="noopener">Manşetiz</a>), Evrensel (<a href="https://www.evrensel.net/haber/5985285/kartalkaya-sonrasi-yeni-duzenleme-periyodik-denetim-ve-yeni-gunah-kecisi-yangin-uzmani-zorunlulugu" target="_blank" rel="noopener">22.05.2026</a>), DHA (<a href="https://www.dha.com.tr/yerel-haberler/ankara/yapi-isleri-genel-muduru-aslan-yangin-uzmanlig-2603508" target="_blank" rel="noopener">Yapı İşleri Genel Müdürü</a>), TİBDER raporu.'
+  },
+  {
     id: "bina-yangin-yonetmeligi-yayimlandi",
     baslik: "Bina Yangın Yönetmeliği yayımlandı: YGU adayları için ne değişti?",
     tarih: "2026-11-27",
